@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Doktor Andreas Pihl</title>
+    <style>
+      a {
+        color: #3794ff;
+        text-decoration: none;
+      }
+      a:visited {
+        color: #3794ff;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      body {
+        text-align: center;
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .main-container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .heading {
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 0;
+      }
+
+      .sub-heading {
+        font-style: italic;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+
+      .mugshot {
+        max-width: 100%;
+        min-height: 150px;
+        max-height: calc(100vh - 200px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="heading">Doktor Andreas Pihl</h1>
+      <div class="sub-heading">
+        Læge > forsker > forfatter > foredragsholder
+      </div>
+
+      <div>
+        <img
+          class="mugshot"
+          src="https://user-images.githubusercontent.com/209966/70870466-f5a36080-1f93-11ea-9221-5cde5cc5162e.png"
+        />
+      </div>
+
+      <p>
+        Følg mig på
+        <a target="_blank" href="https://twitter.com/DoctorPihl">Twitter</a>
+        eller
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/andreas-pihl-78b32986/"
+          >LinkedIn</a
+        >
+      </p>
+      <p>Kontakt: <a href="mailto:afpihl@gmail.com">afpihl@gmail.com</a></p>
+    </div>
+  </body>
+</html>
